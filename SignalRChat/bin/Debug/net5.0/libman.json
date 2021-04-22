@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "@microsoft/signalr@latest",
+      "destination": "wwwroot/js/signalr/",
+      "files": [
+        "dist/browser/signalr.js",
+        "dist/browser/signalr.min.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "two.js@0.7.4",
+      "destination": "wwwroot/lib/two.js/",
+      "files": [
+        "two.min.js",
+        "two.js",
+        "two.module.js",
+        "two.module.min.js"
+      ]
+    }
+  ]
+}
